@@ -1,0 +1,83 @@
+*{ 
+    box-sizing: border-box;
+    margin: 0;
+  }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(99, 99, 99);
+}
+.q{
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+}
+.q div{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(216, 216, 216);
+    border-radius: 50%;
+    margin: 0 -2px;
+}
+span{
+    /* margin: 0 5px; */
+    padding: 0 5px;
+}
+.q .two{
+    width: 45px;
+    height:45px;
+}
+.load{
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
+.load div{
+    width: 5px;
+    height: 5px;
+    background-color: rgb(0, 0, 255);
+    border-radius: 50%;
+    margin: 0 5px;
+    animation-name: up-down;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+}
+.load .two{
+    animation-delay: 0.1s;
+}
+.load .three{
+    animation-delay: 0.2s;
+}
+.load .four{
+    animation-delay: 0.3s;
+}
+.load .five{
+    animation-delay: 0.4s;
+}
+.load .sex{
+    animation-delay: 0.5s;
+}
+.load .seven{
+    animation-delay: 0.6s;
+}
+.load .eghit{
+    animation-delay: 0.7s;
+}
+.load .nine{
+    animation-delay: 0.8s;
+}
+
+@keyframes up-down{
+    to{
+        opacity: 0.2;
+        transform: translateY(200px);
+    }
+
+}
+
+.street {
+    margin: 300px auto;
+    width: 1000px;
+    height: 100px;
+    background-color: yellow;
+}
